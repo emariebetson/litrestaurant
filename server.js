@@ -10,34 +10,8 @@ app.use(express.urlencoded({ extend: true }));
 app.use(express.json());
 // Data
 // ===========================================================
-const reservations = [
-  {
-    customerName: "Eric",
-    phoneNumber: "555-555-5555",
-    customerEmail: "eric@aol.com",
-    customerID: "eric"
-  },
-  {
-    customerName: "Liz",
-    phoneNumber: "555-555-5555",
-    customerEmail: "liz@aol.com",
-    customerID: "liz"
-  }
-];
-const waitlist = [
-  {
-    customerName: "Scott",
-    phoneNumber: "555-555-5555",
-    customerEmail: "scott@aol.com",
-    customerID: "scott"
-  },
-  {
-    customerName: "Phil",
-    phoneNumber: "555-555-5555",
-    customerEmail: "phil@aol.com",
-    customerID: "phil"
-  }
-];
+const reservations = [];
+const waitlist = [];
 // Routes
 // ===========================================================
 // general route
